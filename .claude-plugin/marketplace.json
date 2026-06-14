@@ -30,6 +30,17 @@
         "url": "https://github.com/sesamehut/auth-client-plugin.git",
         "ref": "main"
       }
+    },
+    {
+      "name": "app-store-connect",
+      "description": "从 Claude Code 操作 Apple App Store Connect：应用与版本、商店元数据与本地化、客户评论回复、销售/财务/分析报告下载、截图与预览视频、TestFlight、构建、App Store 提交与发布",
+      "version": "0.1.0",
+      "category": "developer-tools",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sesamehut/appstore-connect-plugin.git",
+        "ref": "main"
+      }
     }
   ]
 }
