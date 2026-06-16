@@ -23,12 +23,14 @@
     {
       "name": "sesamehut-auth-client",
       "description": "Sesame Hut Studio 身份层 (auth.sesamehut.studio) 产品侧集成 skill：OIDC + PKCE、refresh token rotation、S2S 产品级删除 API",
-      "version": "0.1.0",
+      "version": "0.5.0",
       "category": "auth",
       "source": {
-        "source": "url",
-        "url": "https://github.com/sesamehut/auth-client-plugin.git",
-        "ref": "main"
+        "source": "git-subdir",
+        "url": "https://github.com/sesamehut/sesamehut-auth.git",
+        "path": "plugin",
+        "ref": "plugin-v0.5.0",
+        "sha": "3b88590b34f521075732666737f9ef571c1bb0b6"
       }
     },
     {
