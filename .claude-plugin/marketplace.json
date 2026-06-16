@@ -37,9 +37,11 @@
       "version": "0.1.0",
       "category": "developer-tools",
       "source": {
-        "source": "url",
-        "url": "https://github.com/sesamehut/appstore-connect-plugin.git",
-        "ref": "main"
+        "source": "git-subdir",
+        "url": "https://github.com/sesamehut/appstore-connect-skill.git",
+        "path": "plugin",
+        "ref": "v0.1.0",
+        "sha": "d0bd181eff6edda67d6d0172914bd9fe32abe8bb"
       }
     }
   ]
