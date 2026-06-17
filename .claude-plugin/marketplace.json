@@ -22,7 +22,7 @@
     },
     {
       "name": "sesamehut-auth-client",
-      "description": "Sesame Hut Studio identity layer (auth.sesamehut.studio) product-side integration skills: OIDC + PKCE, refresh token rotation, S2S product-level deletion API",
+      "description": "OIDC integration spec and Claude Code skills for auth.sesamehut.studio, the Sesame Hut identity provider. Walks repos through onboarding (prepare → submit), then integrating PKCE login and refresh rotation.",
       "version": "0.5.0",
       "category": "auth",
       "source": {
@@ -35,7 +35,7 @@
     },
     {
       "name": "app-store-connect",
-      "description": "Operate Apple App Store Connect from Claude Code: apps and versions, store metadata and localizations, customer review replies, sales/finance/analytics report downloads, screenshots and preview videos, TestFlight, builds, App Store submission and release",
+      "description": "Operate Apple App Store Connect from Claude Code: list apps and versions, edit store metadata and localizations, reply to reviews, download sales/finance/analytics reports, manage screenshots, previews, TestFlight, builds, and App Store submission and release.",
       "version": "0.1.0",
       "category": "developer-tools",
       "source": {
