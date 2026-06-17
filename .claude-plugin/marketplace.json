@@ -5,13 +5,13 @@
     "email": "hello@sesamehut.studio"
   },
   "metadata": {
-    "description": "Claude Code 插件集合（支持跨工具使用，参见各插件 README）",
+    "description": "Claude Code plugin collection (cross-tool compatible; see each plugin's README)",
     "version": "2026.Q2"
   },
   "plugins": [
     {
       "name": "sonara",
-      "description": "SONARA 音频库工作流 skill 集合：意境描述、封面生成、CMS 上传、流水线批处理、Registry 查询",
+      "description": "SONARA audio-library workflow skills: mood descriptions, cover generation, CMS upload, pipeline batch processing, registry queries",
       "version": "0.1.0",
       "category": "content-ops",
       "source": {
@@ -22,7 +22,7 @@
     },
     {
       "name": "sesamehut-auth-client",
-      "description": "Sesame Hut Studio 身份层 (auth.sesamehut.studio) 产品侧集成 skill：OIDC + PKCE、refresh token rotation、S2S 产品级删除 API",
+      "description": "Sesame Hut Studio identity layer (auth.sesamehut.studio) product-side integration skills: OIDC + PKCE, refresh token rotation, S2S product-level deletion API",
       "version": "0.5.0",
       "category": "auth",
       "source": {
@@ -35,7 +35,7 @@
     },
     {
       "name": "app-store-connect",
-      "description": "从 Claude Code 操作 Apple App Store Connect：应用与版本、商店元数据与本地化、客户评论回复、销售/财务/分析报告下载、截图与预览视频、TestFlight、构建、App Store 提交与发布",
+      "description": "Operate Apple App Store Connect from Claude Code: apps and versions, store metadata and localizations, customer review replies, sales/finance/analytics report downloads, screenshots and preview videos, TestFlight, builds, App Store submission and release",
       "version": "0.1.0",
       "category": "developer-tools",
       "source": {
