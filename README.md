@@ -1,6 +1,6 @@
 # plugins-marketplace
 
-Sesame Hut Studio 的 Claude Code 插件索引。所有插件均设计为跨 Claude Code / Codex CLI / Gemini CLI 三家工具通用（具体安装命令见各 plugin 仓库 README）。
+Sesame Hut 的 Claude Code 插件索引。所有插件均设计为跨 Claude Code / Codex CLI / Gemini CLI 三家工具通用（具体安装命令见各 plugin 仓库 README）。
 
 ## 使用（Claude Code）
 
