@@ -36,14 +36,14 @@
     {
       "name": "app-store-connect",
       "description": "Operate Apple App Store Connect from Claude Code: list apps and versions, edit store metadata and localizations, reply to reviews, download sales/finance/analytics reports, manage screenshots, previews, TestFlight, builds, and App Store submission and release.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/sesamehut/appstore-connect-skill.git",
         "path": "plugin",
-        "ref": "v0.2.0",
-        "sha": "e8445ed907d59e43d5612149d53ee39ef32d91b5"
+        "ref": "v0.2.1",
+        "sha": "c1978633829d45f1f59bd42f04003d9aa7ab3087"
       }
     }
   ]
