@@ -1,0 +1,45 @@
+name: Archive repo traffic
+
+# GitHub keeps clone/view traffic for only 14 days. This job snapshots the
+# tracked repos daily and commits the merged history under traffic/, turning the
+# rolling 14-day window into a long-term series. See traffic/README.md.
+
+on:
+  schedule:
+    # Daily at ~06:17 UTC. The offset from :00 dodges the top-of-hour cron
+    # congestion that delays scheduled runs.
+    - cron: "17 6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write # commit the archived CSVs back to the repo
+
+concurrency:
+  group: traffic-archive
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collect traffic
+        env:
+          # The built-in GITHUB_TOKEN cannot read the traffic API, so pass a PAT
+          # (classic `repo` scope, or fine-grained with Administration:read) from
+          # an account that can push to every repo listed in traffic/collect.py.
+          GH_TOKEN: ${{ secrets.TRAFFIC_PAT }}
+        run: python3 traffic/collect.py
+
+      - name: Commit archive
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add traffic/
+          if git diff --cached --quiet; then
+            echo "No traffic changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(traffic): archive $(date -u +%Y-%m-%d) snapshot"
+          git push
