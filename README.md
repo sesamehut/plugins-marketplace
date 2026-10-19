@@ -14,6 +14,7 @@ Sesame Hut 的 Claude Code 插件索引。所有插件均设计为跨 Claude Cod
 | 插件 | 版本 | 描述 |
 |------|------|------|
 | `sonara` | 0.1.0 | SONARA 音频库工作流 skill 集合 |
+| `agent-config-bridge` | 0.1.0 | Claude Code / Codex 项目级 agent 配置桥：只读漂移哨兵，以及计划确认后才落盘的同步；覆盖项目 skill、入口指令、规则分片与 hook 意图 |
 
 ## 新增插件
 

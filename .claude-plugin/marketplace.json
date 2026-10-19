@@ -45,6 +45,19 @@
         "ref": "v0.2.1",
         "sha": "c1978633829d45f1f59bd42f04003d9aa7ab3087"
       }
+    },
+    {
+      "name": "agent-config-bridge",
+      "description": "Bridge project-level agent configuration between Claude Code and Codex: a read-only drift sentinel and a plan-confirm-write sync for project skills, entry instructions, rule shards, and hook intents.",
+      "version": "0.1.0",
+      "category": "developer-tools",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/sesamehut/agent-config-bridge.git",
+        "path": "plugin",
+        "ref": "agent-config-bridge--v0.1.0",
+        "sha": "cb6cddfd03371c026d7f0b5863460624c6a807ff"
+      }
     }
   ]
 }
