@@ -1,6 +1,6 @@
 # plugins-marketplace
 
-Sesame Hut 的 Claude Code 插件索引。所有插件均设计为跨 Claude Code / Codex CLI / Gemini CLI 三家工具通用（具体安装命令见各 plugin 仓库 README）。
+Sesame Hut 的插件索引。各插件的工具支持范围和安装方式以其说明为准。
 
 ## 使用（Claude Code）
 
@@ -15,14 +15,15 @@ Sesame Hut 的 Claude Code 插件索引。所有插件均设计为跨 Claude Cod
 |------|------|------|
 | `sonara` | 0.1.0 | SONARA 音频库工作流 skill 集合 |
 | `agent-config-bridge` | 0.1.0 | Claude Code / Codex 项目级 agent 配置桥：只读漂移哨兵，以及计划确认后才落盘的同步；覆盖项目 skill、入口指令、规则分片与 hook 意图 |
+| `casement` | 0.1.0 | Claude Code / Codex 的 AWS 账号与 CLI 入门、Lightsail 开通及 Debian 节点部署 skill |
 
 ## 新增插件
 
-1. 独立 plugin 仓库按跨工具分发约定组织（同时兼容 Claude Code / Codex CLI / Gemini CLI）
-2. 在 `.claude-plugin/marketplace.json` 的 `plugins` 数组中登记
+1. 在源码仓库的 `plugin/` 中生成可安装产物，或使用独立分发仓库；按实际支持的工具提供 manifest 与使用说明
+2. 在 `.claude-plugin/marketplace.json` 的 `plugins` 数组中登记，发布条目固定版本 `ref` 与对应 commit `sha`
 3. 提交并推送 marketplace 仓库
 4. 用户执行 `/plugin marketplace update` 即可发现新插件
 
 ## Codex / Gemini 用户
 
-marketplace 是 Claude 独占概念。Codex / Gemini 用户请直接到对应 plugin 仓库按其 README 安装。
+Codex 也支持 marketplace，可从插件目录安装支持 Codex 的插件；具体命令见该插件的安装说明。Gemini 用户按各插件说明使用，不假定所有插件均支持 Gemini。
