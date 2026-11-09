@@ -62,14 +62,14 @@
     {
       "name": "casement",
       "description": "Guide beginners through AWS account setup, CLI login and Lightsail provisioning, then deploy and maintain a Casement node on Debian. Supports Claude Code and Codex.",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/sesamehut/casement.git",
         "path": "plugin",
-        "ref": "plugin-v0.1.2",
-        "sha": "7ed5d7456b6a91f62871a206df162a6022ad197c"
+        "ref": "plugin-v0.1.3",
+        "sha": "09a52700509137fee6d1a8534f60e2aa0c8173c7"
       }
     }
   ]
