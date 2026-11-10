@@ -15,7 +15,7 @@ Sesame Hut 的插件索引。各插件的工具支持范围和安装方式以其
 |------|------|------|
 | `sonara` | 0.1.0 | SONARA 音频库工作流 skill 集合 |
 | `agent-config-bridge` | 0.1.0 | Claude Code / Codex 项目级 agent 配置桥：只读漂移哨兵，以及计划确认后才落盘的同步；覆盖项目 skill、入口指令、规则分片与 hook 意图 |
-| `casement` | 0.1.4 | Claude Code / Codex 的节点部署与运维 skill，区分解释、首次部署和已有节点维护，支持私有选型与事故记录 |
+| `casement` | 0.1.5 | Claude Code / Codex 的节点部署与运维 skill，区分解释、首次部署和已有节点维护，支持私有选型与事故记录 |
 
 ## 新增插件
 
