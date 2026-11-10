@@ -61,15 +61,15 @@
     },
     {
       "name": "casement",
-      "description": "Alpha: guide AWS login, identity and region checks, administrator-assisted permission recovery and Lightsail provisioning, then deploy and maintain Casement on Debian. Supports Claude Code and Codex.",
-      "version": "0.0.1-alpha.1",
+      "description": "Alpha: CLI/API workflows for AWS authentication, scoped permission recovery, Lightsail provisioning, WireGuard persistence, client verification and rollback. Supports Claude Code and Codex.",
+      "version": "0.0.1-alpha.2",
       "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/sesamehut/casement.git",
         "path": "plugin",
-        "ref": "plugin-v0.0.1-alpha.1",
-        "sha": "61b9e4ac291712c7e2841e3ed599a4456fb29c41"
+        "ref": "plugin-v0.0.1-alpha.2",
+        "sha": "4fa1eedccead4f5745dcb96aedba4f1578329860"
       }
     }
   ]
