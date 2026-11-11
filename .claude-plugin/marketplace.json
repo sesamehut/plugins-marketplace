@@ -61,15 +61,15 @@
     },
     {
       "name": "casement",
-      "description": "Alpha: CLI/API workflows for AWS authentication, scoped permission recovery, Lightsail provisioning, WireGuard persistence, client verification and rollback. Supports Claude Code and Codex.",
-      "version": "0.0.1-alpha.2",
+      "description": "Alpha: Lightsail provisioning and failure inspection, explicit client probe paths, existing-network workflows, and incremental WireGuard recovery tooling. Supports Claude Code and Codex.",
+      "version": "0.0.1-alpha.4",
       "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/sesamehut/casement.git",
         "path": "plugin",
-        "ref": "plugin-v0.0.1-alpha.2",
-        "sha": "4fa1eedccead4f5745dcb96aedba4f1578329860"
+        "ref": "plugin-v0.0.1-alpha.4",
+        "sha": "84bf12740bc73871cda7901539de7227200d8549"
       }
     }
   ]
