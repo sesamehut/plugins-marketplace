@@ -61,15 +61,15 @@
     },
     {
       "name": "casement",
-      "description": "Alpha: Lightsail provisioning and failure inspection, explicit client probe paths, existing-network workflows, and incremental WireGuard recovery tooling. Supports Claude Code and Codex.",
-      "version": "0.0.1-alpha.4",
+      "description": "Set up your own virtual machine, configure proxy protocols and optional residential ISP egress, and verify connections with Casement.",
+      "version": "0.0.1-alpha.5",
       "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/sesamehut/casement.git",
         "path": "plugin",
-        "ref": "plugin-v0.0.1-alpha.4",
-        "sha": "84bf12740bc73871cda7901539de7227200d8549"
+        "ref": "plugin-v0.0.1-alpha.5",
+        "sha": "7a181de5fc02aa805fea0ad0b08ebe94ed6207d3"
       }
     }
   ]
