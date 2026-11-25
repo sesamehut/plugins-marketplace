@@ -62,14 +62,14 @@
     {
       "name": "casement",
       "description": "Set up your own virtual machine, configure proxy protocols and optional residential ISP egress, and verify connections with Casement.",
-      "version": "0.0.1-alpha.10",
+      "version": "0.0.1-alpha.11",
       "category": "developer-tools",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/sesamehut/casement.git",
         "path": "plugin",
-        "ref": "plugin-v0.0.1-alpha.10",
-        "sha": "12917cf0da0d2a9b33cf0f2e073913a744f09a41"
+        "ref": "plugin-v0.0.1-alpha.11",
+        "sha": "f037c2cb8ac79a23306565fdf6cbdc12ebb90932"
       }
     }
   ]
